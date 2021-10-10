@@ -4,6 +4,6 @@ branches:
 - main
 projects:
   RepairTheItem:
-    icon: "icon.png"
+    icon: "icon.png"l
     path: ""
 ...
