@@ -2,7 +2,7 @@ name: RepairTheItem
 main: repair\pand\Main
 author: pand_jxsper
 version: 1.0.0-BETA
-api: 3.24.0
+api: 3.0.0
 
 permissions:
   repairtheitem.command:
