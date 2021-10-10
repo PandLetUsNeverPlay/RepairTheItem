@@ -1,0 +1,6 @@
+# PLUGIN CONFIG
+
+command: repair
+description: Repair the item in your hand!
+no-permission: §cYou do not have permission to use this command!
+repair-message: §aYou successfully repaired the item in your hand!
