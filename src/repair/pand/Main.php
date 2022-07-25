@@ -10,7 +10,7 @@ use repair\pand\commands\RepairCommand;
 
 class Main extends PluginBase {
 
-	public function onEnable() {
+	public function onEnable() : void {
 		@mkdir($this->getDataFolder());
 		$this->saveResource("config.yml");
 		$this->saveDefaultConfig();
@@ -18,7 +18,7 @@ class Main extends PluginBase {
 		$this->getLogger()->info(TextFormat::GREEN . "RepairTheItem was enabled!");
 	}
 	
-	public function onDisable() {
+	public function onDisable() : void {
 		$this->getLogger()->info(TextFormat::RED . "RepairTheItem was disabled!");
 	}
 }
